@@ -1,14 +1,26 @@
 $myColor1: navy;                            // named color value
 $myColor2: #8a8aca; 
-$myFontSize: 18px;
-$paddingVar: 15px 15px 15px 15px;
+$mycolor3: #ed8917;
+$myFontSize1: 18px;
+$myFontSize2: 40px;
+
 
 h1 {
     color: $myColor1;
+    font-size: $myFontSize2;
 }
 body {
     background-color: $myColor2;
 }
 p {
-    font-size: $myFontSize;
+    font-size: $myFontSize1;
+}
+nav {
+    background: $mycolor3;
+}
+a:hover {
+    color: $myColor1;
+}
+.parag {
+    background-color: #ee9494;
 }
