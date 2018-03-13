@@ -93,9 +93,11 @@ nav a {
 	font-weight:normal;
 	text-align: center;
 	
+	
 }
 nav ul {
 	list-style: none;
+	margin-right: 40px;
 }
 }
 /*  navigation */
@@ -122,7 +124,7 @@ nav ul {
 }
 nav ul, nav li {
 	margin: 0;
-	padding: 0;
+	padding: 0 10px;
 }
 nav li {
 	float:left;
@@ -135,7 +137,7 @@ nav a {
 	border: none;
 	line-height:2;
 	font-weight:normal;
-	margin-left: 2em;
+	margin-left: 0em;
 	text-align: center;
 }
 
