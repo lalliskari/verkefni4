@@ -1,62 +1,3 @@
-@import url(../css/grid.css);
-h1 {
-  color: navy;
-  font-size: 40px; }
-
-body {
-  background-color: #8a8aca; }
-
-p {
-  font-size: 18px; }
-
-nav {
-  background: #ed8917; }
-
-.parag {
-  background-color: #ee9494; }
-
-body {
-  font-family: Helvetica, Arial, sans-serif; }
-
-.parag {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.cf a {
-  color: #faf4f4;
-  padding: 1px; }
-  .cf a:hover {
-    color: red; }
-
-header {
-  background-color: tomato;
-  color: #274D87;
-  border-radius: 10px;
-  border: 1px solid green;
-  padding: 10px; }
-
-footer {
-  background-color: snow;
-  color: #3264AF;
-  border-radius: 10px;
-  border: 1px solid green;
-  padding: 10px; }
-
-.parag a {
-  font-style: italic;
-  background-color: snow;
-  border-radius: 10px;
-  border: 1px solid green;
-  padding: 10px; }
-
-h2 {
-  color: #830414; }
-
-h3 {
-  color: #b4061c; }
-
-h4 {
-  color: #e60724; }
-
 /*normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /*https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css*/
 /* Document
@@ -445,4 +386,4 @@ template {
 [hidden] {
   display: none; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=normalize.css.map */
