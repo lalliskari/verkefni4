@@ -4,3 +4,13 @@ body {
 .parag {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.cf a {
+    color: #faf4f4;
+    
+    padding: 1px;
+    
+    &:hover {
+        color: red;
+        
+    }
+}

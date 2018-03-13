@@ -19,6 +19,7 @@ body {
   .parag {
 	  margin-top: -1em;
   }
+ 
   /* ========================================
   GRID
   ======================================== */
@@ -32,6 +33,7 @@ body {
 	"header"
 	"midja"
 	"footer"
+	
 	
   }
   
@@ -59,6 +61,9 @@ body {
    
 /*  smaller screens */
 @media only screen and (max-width : 60em) {
+
+
+
 body {
 		 width: 100%;
 		 margin: 0;
@@ -86,8 +91,8 @@ nav a {
 	border: none;
 	line-height:2;
 	font-weight:normal;
-	
 	text-align: center;
+	
 }
 nav ul {
 	list-style: none;
@@ -96,6 +101,7 @@ nav ul {
 /*  navigation */
 @media only screen and (min-width : 48em) {
 .grid-container {
+	
 	grid-template-areas: 
 	"header"
 	"nav"
@@ -105,7 +111,9 @@ nav ul {
 
 nav {
 	margin-bottom: 1em;
-	
+	display: flex;
+    flex-flow:   row;
+    justify-content: center;
 	height: 3em;
 	padding: 0.2em 0;
 }
@@ -130,11 +138,6 @@ nav a {
 	margin-left: 2em;
 	text-align: center;
 }
-nav a.current {
-	color: rgb(34,33,48);
-}
-nav a:hover {
-	background: none;
-	color: rgb(34,33,48);
-}
+
+
 }

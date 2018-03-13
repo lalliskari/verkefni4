@@ -1,0 +1,44 @@
+@import url(../css/grid.css);
+h1 {
+  color: navy;
+  font-size: 40px; }
+
+body {
+  background-color: #8a8aca; }
+
+p {
+  font-size: 18px; }
+
+nav {
+  background: #ed8917; }
+
+.parag {
+  background-color: #ee9494; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif; }
+
+.parag {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.cf a {
+  color: #faf4f4;
+  padding: 1px; }
+  .cf a:hover {
+    color: red; }
+
+header {
+  background-color: tomato;
+  color: #274D87;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px; }
+
+footer {
+  background-color: snow;
+  color: #3264AF;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px; }
+
+/*# sourceMappingURL=main.css.map */
