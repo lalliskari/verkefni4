@@ -19,6 +19,40 @@ body {
   .parag {
 	  margin-top: -1em;
   }
+  /* ========================================
+  GRID
+  ======================================== */
+
+
+  .grid-container {
+	display: grid;
+	
+	grid-template-areas: 
+	"nav"
+	"header"
+	"midja"
+	"footer"
+	
+  }
+  
+	
+	header {
+		grid-area: header;
+	  }
+	  .cf {
+		grid-area: nav;
+	  }
+	  
+	  .parag {
+		grid-area: midja;
+	  
+	  }
+	  footer {
+		grid-area: footer;
+	  }
+	  
+	 
+
 
 /* Media queries
    ========================================================================== */
@@ -52,7 +86,8 @@ nav a {
 	border: none;
 	line-height:2;
 	font-weight:normal;
-	margin-left: 2em;
+	
+	text-align: center;
 }
 nav ul {
 	list-style: none;
@@ -60,7 +95,13 @@ nav ul {
 }
 /*  navigation */
 @media only screen and (min-width : 48em) {
-
+.grid-container {
+	grid-template-areas: 
+	"header"
+	"nav"
+	"midja"
+	"footer"
+}
 
 nav {
 	margin-bottom: 1em;
@@ -77,6 +118,7 @@ nav ul, nav li {
 }
 nav li {
 	float:left;
+	
 }
 nav a {
 	font-size:1.4em;
@@ -86,6 +128,7 @@ nav a {
 	line-height:2;
 	font-weight:normal;
 	margin-left: 2em;
+	text-align: center;
 }
 nav a.current {
 	color: rgb(34,33,48);
