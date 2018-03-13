@@ -14,3 +14,8 @@ footer {
     color: #3264AF;
     @include commonTraits;
 }
+.parag a {
+    font-style: italic;
+    background-color: snow;
+    @include commonTraits;
+}
