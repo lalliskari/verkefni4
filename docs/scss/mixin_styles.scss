@@ -1,7 +1,42 @@
 @mixin commonTraits {
     border-radius: 10px;
-    border: 1px solid green;
+    border: 1px solid #080808;
     padding: 10px;
+}
+$violet-base: #9207e2;
+
+
+@mixin buttonColorProperties($color) {
+  $border: adjust-hue($color, -6deg);
+  background-color: $color; 
+  border: 3px solid $border;
+}
+
+
+@for $i from 1 through 7 {
+    .button-purple:nth-of-type(#{$i}) {
+      background-color: darken($violet-base, 5*$i);
+    }
+}
+
+ 
+@mixin buttonColors($baseColor) {
+  @include buttonColorProperties($baseColor);
+
+  &:hover {
+    $base-hover: darken($baseColor, 30);
+    color:white;
+
+    @include buttonColorProperties($base-hover);
+      transition: all 0.25s;
+  }
+}
+
+
+.parag a  {
+  @include buttonColors($violet-base);
+  @include commonTraits;
+  color:white;
 }
 header {
     background-color: tomato;
@@ -12,10 +47,5 @@ header {
 footer {
     background-color: snow;
     color: #3264AF;
-    @include commonTraits;
-}
-.parag a {
-    font-style: italic;
-    background-color: snow;
     @include commonTraits;
 }
